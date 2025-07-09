@@ -1,5 +1,4 @@
 # Пятое
-from py_base import value
 
 first_list = [-10, 15, 30, -70, -150]
 
@@ -12,10 +11,7 @@ print(result)
 
 # Шестое
 
-student = {
-    "Имя": "Мария",
-    "Возраст": 21
-}
+student = {"Имя": "Мария", "Возраст": 21}
 
 inc = 3
 
