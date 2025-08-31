@@ -1,5 +1,5 @@
 # Первое
-first_list = [-10, 15, -30, -70, -150]
+first_list = [-10, 15, -30, 70, 150]
 
 n_elem = first_list[2]
 

@@ -21,3 +21,4 @@ def update_dict(student, inc):
 
 students = update_dict(student, inc)
 print(students.get("Возраст"))
+
