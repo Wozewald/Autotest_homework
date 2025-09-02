@@ -15,7 +15,7 @@ def test_example(page):
     userName = page.inner_text("#name")
     userEmail = page.inner_text("#email")
 
-    if "Wozewald" in userName and "Wozewald@gmail.com" in userEmail:
+    if os.getenv("UserName") in userName and os.getenv("UserEmail") in userEmail:
         print("ok")
     else:
         print("not ok")
